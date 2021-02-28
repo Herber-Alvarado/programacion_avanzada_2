@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsessed -API</title>
+    <link rel="stylesheet" href="../style/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="div-general-body container-fluid">
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light menuprincipal">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="logo">
+                <img style="width: 80px;" src="../img/charles-elena.png" alt=".">
+            </div>
+        </header>
+
+        <h1>Pagina API</h1>
+
+
+        
+        <main>
+            <div class="contenedor-main-api container">
+                <script src="../js/api.js"></script>
+
+                <form>  
+
+                    <h6 style="color: cornflowerblue;" >API: "https://api.chucknorris.io/jokes/random"</h6>
+                    <div class="form-group leer-mensaje">
+                        <button type="button" class="btn btn-primary form-control" onclick="consumirapi()" >Leer Mensaje</button>         
+                    </div>
+
+                    <div class="form-group mensaje-nuevo">
+                        <textarea class="msj-nuevo form-control" id="caja-msj-nuevo" rows="5" placeholder="Mensaje Nuevo"></textarea> 
+                    </div>
+                                
+                    <div class="form-group mensajes-historicos">
+                        <textarea class="msj-historicos form-control" id="caja-msjs-historicos" rows="10" placeholder="Mensajes Historicos"></textarea>
+                    </div>                   
+                </form>
+            </div>
+        </main>
+
+
+
+    </div>
+</body>
+</html>

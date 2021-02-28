@@ -1,0 +1,119 @@
+.logo{
+    top: 0;
+    left: 10px;
+    position: fixed;
+    z-index: 100;
+}
+@media screen and (max-width: 991px) {
+    .logo{
+        left: 120px;
+    }
+}
+
+.div-general-body{
+    margin-top: 5vw;
+}
+
+
+.menuprincipal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.menuprincipal a:hover{
+    background-color: lightgray;
+}
+
+.contenedor-main{
+    display: grid;
+    grid-gap: 10px;
+    background-image: url("../img/background1.jpg");
+
+    /*
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
+    /* background-color: brown; */
+    /*
+    grid-template-areas: "espacio-superior espacio-superior espacio-superior"
+                         "espacio-izquierdo espacio-central espacio-derecho"
+                         "espacio-inferior espacio-inferior espacio-inferior";
+                         */
+}
+
+
+
+.seccionvideo{
+   margin-top: 5vw;
+}
+.texto-izquierdo{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    color: white;
+    font-size: 1vw;
+}
+.videocentral{
+    width: 60vw;
+}
+
+
+
+
+
+
+
+
+.seccionformulario{
+    margin-top: 4vw;
+    padding-top: 4vw;
+    background-color: white;
+}
+
+.texto-direcciones{
+    font-size: 1vw;
+    display: grid;
+    justify-content: end;
+    font-size: 1vw;
+}
+
+
+
+.formulario{
+    background-color: black;
+}
+
+
+
+
+.div-general-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 2vw;
+    padding: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-main-api{
+    background-color:black;
+    padding: 2vw;
+}
+
+
+
+
+
